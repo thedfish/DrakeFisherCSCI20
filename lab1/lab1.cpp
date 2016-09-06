@@ -1,3 +1,6 @@
+// Written by Drake Fisher
+// 9/1/2016
+
 #include <iostream>
 using namespace std;
 
