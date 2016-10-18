@@ -8,17 +8,13 @@ int main() {
     cout << "Please enter a character: ";
     cin >> ch;
     // check -- is it a letter??
-    if (ch <= 'Z'){
-        if (ch >= 'A'){
+    if (ch >= 'A' && ch <= 'Z'){
             cout << "Yes, that is a uppercase letter." << endl;
         }
         
-    }
-    else if (ch <= 'z'){
-        if (ch >= 'a'){
+    else if (ch >= 'a' && ch <= 'z'){
             cout << "Yes, that is a lowercase letter." << endl;
         }
-    }
     else {
         cout << "Not a letter" << endl;
     }
