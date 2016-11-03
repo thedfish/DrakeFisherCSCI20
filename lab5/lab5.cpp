@@ -6,6 +6,7 @@
 #include <string>
 using namespace std;
 
+// Monster struct that contains all monster pieces
 struct Monster 
 {
     string monsterName;
@@ -18,6 +19,7 @@ struct Monster
 
 int main()
 {
+    // Where monster struct is put to use
     Monster myMonster;
     myMonster.monsterName;
     myMonster.monsterHead;
@@ -25,6 +27,8 @@ int main()
     myMonster.monsterEars;
     myMonster.monsterNose;
     myMonster.monsterMouth;
+    
+    // Series of questions to pick monster parts
     
     cout << "What would you like to name your monster?" << endl;
     cin >> myMonster.monsterName;
@@ -52,10 +56,15 @@ int main()
 }
 
 
+// Required test monster
 
-//Name: OneMonster
-//Head: Zombus
-//Eyes: Spritem
-//Ears: Vegitas
-//Nose: None
-//Mouth: Wackus
+/*Name: OneMonster
+Head: Zombus
+Eyes: Spritem
+Ears: Vegitas
+Nose: None
+Mouth: Wackus
+*/
+
+
+
