@@ -13,7 +13,7 @@ void copyright()
     cout << "| | | |  _|   | |  `--. |  _  |" << endl;
     cout << "| |/ /| |    _| |_/|__/ / | | |" << endl;
     cout << "|___/ |_|    |___/|____/|_| |_/" << endl;
-    cout << "                              ©" << endl;
+    cout << "                         2016 ©" << endl;
 }
 
 int main()

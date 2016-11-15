@@ -13,8 +13,6 @@ class gameTools {
       int liveplayerScore = 0;
       int liveopponentScore = 0;
 
-   private:
-
 };
 
 void gameTools::playerPoint(int playerScore) {
