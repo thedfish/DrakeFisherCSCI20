@@ -33,7 +33,7 @@ main ()
     
     if (userChoice == 1)
     {
-        cout << "Please enter the amount of Pounds you would like to convert to kilograms." << endl;
+        cout << "Please enter the amount of pounds you would like to convert to kilograms." << endl;
         cin >> userPounds;
         
         userKilos = computePoundstoKilos(userPounds);
